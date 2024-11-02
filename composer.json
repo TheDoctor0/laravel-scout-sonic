@@ -1,17 +1,21 @@
 {
-    "name": "james2doyle/laravel-scout-sonic",
+    "name": "thedoctor0/laravel-scout-sonic",
     "description": "Sonic driver for Laravel Scout.",
     "license": "MIT",
     "authors": [
         {
             "name": "James Doyle",
             "email": "james2doyle@gmail.com"
+        },
+        {
+            "name": "Dawid Janik",
+            "email": "dawid.janik@inception.dev"
         }
     ],
     "require": {
         "php": ">=7.1",
         "laravel/scout": "^7.1|^8.0",
-        "ppshobi/psonic": "^1.2"
+        "ppshobi/psonic": "^1.2|^2.1"
     },
     "autoload": {
         "psr-4": {
